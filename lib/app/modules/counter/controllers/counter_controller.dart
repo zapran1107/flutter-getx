@@ -6,7 +6,7 @@ class CounterController extends GetxController {
 
   void tambahSatu() {
     if (bilangan.value >= 10) {
-      Get.snackbar('Warning', 'Udah ah capek',
+      Get.snackbar('Warning', 'HEPP MANG HEPP',
           snackPosition: SnackPosition.BOTTOM, backgroundColor: Colors.amber);
     } else {
       bilangan.value++;
